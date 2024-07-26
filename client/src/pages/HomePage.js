@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import toast from "react-hot-toast";
 import { Checkbox, Radio, Rate } from "antd";
-import { AiOutlineReload } from "react-icons/ai";
+
 import { useNavigate } from "react-router-dom";
 import Slider from "react-slick";
 import Layout from "./../components/Layout/Layout";
@@ -234,7 +234,7 @@ const HomePage = () => {
                   setPage(page + 1);
                 }}
               >
-                {loading ? "Loading ..." : <>Load more <AiOutlineReload /></>}
+                {loading ? "Loading ..." : <>Load more </>}
               </button>
             )}
           </div>

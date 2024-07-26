@@ -19,7 +19,7 @@ const Login = () => {
     try {
             const res =  await axios({
               method:"post",
-              baseURL:"http://localhost:8080/api/v1/auth",
+              baseURL:"https://shop-ease-website.onrender.com/api/v1/auth",
               url:`login`,
               data: {email,password}
               
