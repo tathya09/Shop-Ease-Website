@@ -1,0 +1,30 @@
+.container-fluid {
+  padding: 1rem 3rem;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.product-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.product-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+  border-radius: 0.25rem;
+}
+
+.product-details p {
+  margin: 0;
+}
